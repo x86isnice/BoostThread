@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/x86isnice/BoostThread/src/BoostThread.cpp
+boost/thread.hpp
+-
+iostream
+-
+cstring
+-
+sstream
+-
+queue
+-
+
